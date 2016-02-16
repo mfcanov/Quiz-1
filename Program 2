@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int n,n2,p,d;
+float r;
+
+int main(){
+
+    cout<<"This is a program that will give you the multiplication, the division and the remainder from the division of the two numbers"<<endl;
+    cout<<"Tell me the first number (Integrer): ";
+    cin>>n;
+    cout<<"Tell me the second number (Integrer): ";
+    cin>>n2;
+
+    p=(n)*(n2);
+    d=(n)/(n2);
+    r=(n)%(n2);
+
+    cout<<"The product is: "<< p << endl;
+    cout<<"The Integrer division is: "<< d <<endl;
+    cout<<"The reimainder is:  "<< r <<endl;
+
+
+}
