@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+float n,n2,p,d,a,s;
+
+
+
+int main(){
+
+    cout<<"This is a program that will give you the multiplication,division,addition,substraction "<<endl;
+    cout<<"Tell me the first number: ";
+    cin>>n;
+    cout<<"Tell me the second number: ";
+    cin>>n2;
+
+    a=(n)+(n2);
+    s=(n)-(n2);
+    p=(n)*(n2);
+    d=(n)/(n2);
+
+
+    cout<<"The product is: "<< p << endl;
+    cout<<"The division is: "<< d <<endl;
+    cout<<"The addition is:  "<< a <<endl;
+    cout<<"The substraction is: "<<s<<endl;
+
+
+}
